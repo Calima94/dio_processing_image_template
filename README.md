@@ -1,7 +1,7 @@
-# package_name
+# py_pixel_art_snake
 
 Description. 
-The package package_name is used to:
+A simple package to play the snake game in pixel art
 	- 
 	-
 
@@ -20,8 +20,8 @@ from package_name.module1_name import file1_name
 file1_name.my_function()
 ```
 
-## Author
-My_name
+## Authors
+Calima94 and Marcosvinisilv
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
