@@ -6,8 +6,8 @@
 from pickle import NONE
 import pygame
 from pygame.locals import *
-from def_states import menu_state, game_inputs, game_running, game_over_state, score_states, init_definitions, config_state
-from functions import button, collision, direct_to_go, dist_to_go, input_box, load_and_scale_images, on_grid_random, read_variable, snake_showing
+from py_pixel_art_snake_package.py_pixel_art_snake import menu_state, game_inputs, game_running, game_over_state, score_states, init_definitions, config_state
+from py_pixel_art_snake_package.py_pixel_art_snake import button, collision, direct_to_go, dist_to_go, input_box, load_and_scale_images, on_grid_random, read_variable, snake_showing
 import pandas as pd
 import numpy as np
 import sys
@@ -31,7 +31,7 @@ def resource_path(relative_path):
 
 pygame.mixer.init()
 
-audio_dir = resource_path("audios/menu_music.mp3")
+audio_dir = resource_path("menu_music.mp3")
 
 menu_music = pygame.mixer.Sound(audio_dir)
 pygame.mixer.music.load(audio_dir)

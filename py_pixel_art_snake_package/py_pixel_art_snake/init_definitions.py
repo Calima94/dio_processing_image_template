@@ -58,34 +58,34 @@ class Init_definitions():
 
         # Scale of the screen
         
-        self.new_game_img = load_and_scale_images.Load_and_scale_images('images/new_game.jpeg',self.screen_size_scale_x, self.screen_size_scale_y) 
-        self.score_img = load_and_scale_images.Load_and_scale_images('images/score.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.exit_img = load_and_scale_images.Load_and_scale_images('images/exit.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.pause_img = load_and_scale_images.Load_and_scale_images('images/pause.jpeg',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.game_over_img = load_and_scale_images.Load_and_scale_images('images/game_over.jpeg',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.start_img = load_and_scale_images.Load_and_scale_images('images/start.jpeg',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.grass_img = load_and_scale_images.Load_and_scale_images('images/grass.jpeg',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.start_menu_img =load_and_scale_images.Load_and_scale_images('images/Snake_menu.jpg',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.apple_img = load_and_scale_images.Load_and_scale_images('images/apple.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.pergaminho_img = load_and_scale_images.Load_and_scale_images('images/pergaminho.jpg',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.new_game_img = load_and_scale_images.Load_and_scale_images('new_game.jpeg',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.score_img = load_and_scale_images.Load_and_scale_images('score.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.exit_img = load_and_scale_images.Load_and_scale_images('exit.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.pause_img = load_and_scale_images.Load_and_scale_images('pause.jpeg',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.game_over_img = load_and_scale_images.Load_and_scale_images('game_over.jpeg',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.start_img = load_and_scale_images.Load_and_scale_images('start.jpeg',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.grass_img = load_and_scale_images.Load_and_scale_images('grass.jpeg',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.start_menu_img =load_and_scale_images.Load_and_scale_images('Snake_menu.jpg',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.apple_img = load_and_scale_images.Load_and_scale_images('apple.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.pergaminho_img = load_and_scale_images.Load_and_scale_images('pergaminho.jpg',self.screen_size_scale_x, self.screen_size_scale_y)
         
-        self.snake_head_up_img = load_and_scale_images.Load_and_scale_images('images/cabeça_cobra_top.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.snake_head_down_img = load_and_scale_images.Load_and_scale_images('images/cabeça_cobra_down.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.snake_head_left_img = load_and_scale_images.Load_and_scale_images('images/cabeça_cobra_left.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.snake_head_right_img = load_and_scale_images.Load_and_scale_images('images/cabeça_cobra_right.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.snake_head_up_img = load_and_scale_images.Load_and_scale_images('cabeça_cobra_top.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.snake_head_down_img = load_and_scale_images.Load_and_scale_images('cabeça_cobra_down.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.snake_head_left_img = load_and_scale_images.Load_and_scale_images('cabeça_cobra_left.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.snake_head_right_img = load_and_scale_images.Load_and_scale_images('cabeça_cobra_right.png',self.screen_size_scale_x, self.screen_size_scale_y)
         
-        self.snake_head_up_eating_img = load_and_scale_images.Load_and_scale_images('images/cabeça_cobra_top_eating.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.snake_head_down_eating_img = load_and_scale_images.Load_and_scale_images('images/cabeça_cobra_down_eating.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.snake_head_left_eating_img = load_and_scale_images.Load_and_scale_images('images/cabeça_cobra_left_eating.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.snake_head_right_eating_img = load_and_scale_images.Load_and_scale_images('images/cabeça_cobra_right_eating.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.snake_head_up_eating_img = load_and_scale_images.Load_and_scale_images('cabeça_cobra_top_eating.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.snake_head_down_eating_img = load_and_scale_images.Load_and_scale_images('cabeça_cobra_down_eating.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.snake_head_left_eating_img = load_and_scale_images.Load_and_scale_images('cabeça_cobra_left_eating.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.snake_head_right_eating_img = load_and_scale_images.Load_and_scale_images('cabeça_cobra_right_eating.png',self.screen_size_scale_x, self.screen_size_scale_y)
         
-        self.snake_gomo_top_img = load_and_scale_images.Load_and_scale_images('images/cobra_gomo_top.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.snake_gomo_down_img = load_and_scale_images.Load_and_scale_images('images/cobra_gomo_down.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.snake_gomo_img = load_and_scale_images.Load_and_scale_images('images/cobra_gomo.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.snake_gomo_top_img = load_and_scale_images.Load_and_scale_images('cobra_gomo_top.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.snake_gomo_down_img = load_and_scale_images.Load_and_scale_images('cobra_gomo_down.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.snake_gomo_img = load_and_scale_images.Load_and_scale_images('cobra_gomo.png',self.screen_size_scale_x, self.screen_size_scale_y)
         
-        self.yes_img = load_and_scale_images.Load_and_scale_images('images/yes.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.no_img = load_and_scale_images.Load_and_scale_images('images/no.png',self.screen_size_scale_x, self.screen_size_scale_y)
-        self.play_again_img = load_and_scale_images.Load_and_scale_images('images/play_again.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.yes_img = load_and_scale_images.Load_and_scale_images('yes.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.no_img = load_and_scale_images.Load_and_scale_images('no.png',self.screen_size_scale_x, self.screen_size_scale_y)
+        self.play_again_img = load_and_scale_images.Load_and_scale_images('play_again.png',self.screen_size_scale_x, self.screen_size_scale_y)
         
         
         
